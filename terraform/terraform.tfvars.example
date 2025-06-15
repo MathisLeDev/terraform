@@ -1,0 +1,13 @@
+# Configuration exemple pour Terraform
+# Copiez ce fichier vers terraform.tfvars et ajustez les valeurs
+
+# Ports des services
+frontend_port = 3001
+backend_port = 3000
+mysql_port = 3306
+
+# Configuration MySQL
+mysql_root_password = "rootpassword"
+mysql_database = "appdb"
+mysql_user = "appuser"
+mysql_password = "apppassword"

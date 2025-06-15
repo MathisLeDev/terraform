@@ -1,0 +1,35 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+
+# Sensitive data
+secrets/
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (dans les sous-dossiers)
+docker/*/node_modules/
+docker/*/dist/
+docker/*/.env
+docker/*/build/
